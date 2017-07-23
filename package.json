@@ -1,0 +1,16 @@
+{
+  "name": "smsbot",
+  "version": "1.0.0",
+  "description": "SmsBot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raghavendra Venkatesh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "nodemon": "^1.11.0",
+    "twilio": "^3.5.0"
+  }
+}
