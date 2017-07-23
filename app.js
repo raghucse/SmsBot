@@ -8,7 +8,7 @@ app.get('/receive', function (req, res) {
 });
 
 app.listen(process.env.port, function () {
-    console.log('TwilioBot listening on port 8080.');
+    console.log('TwilioBot listening on port'+process.env.port);
 });
 
 var accountSid = 'AC7d2939aeeb3856cc794fb7498a1b7da1';
