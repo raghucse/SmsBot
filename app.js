@@ -11,10 +11,10 @@ app.listen(process.env.port, function () {
     console.log('TwilioBot listening on port'+process.env.port);
 });
 
-var accountSid = 'AC7d2939aeeb3856cc794fb7498a1b7da1';
+var accountSid = <ACCOUNT_SID>;
 // Your Account SID from www.twilio.com/console 
 
-var authToken = '9fdfbf7c4b97df16623dbfca6042064d';
+var authToken = <ACCOUNT_TOKEN>;
 // Your Auth Token from www.twilio.com/console
 
 //var client = new twilio.RestClient(accountSid, authToken);
